@@ -206,16 +206,16 @@ const [selectedState, setSelectedState] = useState(states[0]);
 
       {/* Display Description */}
       <div>
-		<div id="state-title">{selectedState.name}
-        <h2>State Description:</h2>
+		<div id="state">
+        <h2 id="state-title">{selectedState.name}</h2>
         <p id="state-description">{selectedState.description}</p>
 		</div>
-		<div id="city-title">{selectedCity.name}
-        <h2>City Description:</h2>
+		<div id="city">
+        <h2 id="city-title">{selectedCity.name}</h2>
         <p id="city-description">{selectedCity.description}</p>
 		</div>
-		<div id="landmark-title">
-        <h2>Landmark Description:</h2>
+		<div id="landmark">
+        <h2 id="landmark-title">{selectedLandmark.name}</h2>
         <p id="landmark-description">{selectedLandmark.description}</p>
 		</div>
       </div>
